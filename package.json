@@ -1,16 +1,16 @@
 {
-  "name": "sohar",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "deploy": "gh-pages -d build"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "homepage": "https://gulfwww.github.io/sohar",
-  "dependencies": {
-    "gh-pages": "^5.0.0"
-  }
+	"name": "Northpole Holdings LTD",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"deploy": "gh-pages -d build"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"homepage": "https://gulfwww.github.io/Northpole-Holdings-LTD",
+	"dependencies": {
+		"gh-pages": "^5.0.0"
+	}
 }
