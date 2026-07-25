@@ -28,9 +28,9 @@ export function SiteHeader() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3.5 lg:px-8">
         <a href="#home" className="flex items-center gap-3">
-          <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-navy p-1.5 shadow-sm">
+          <span className="flex h-11 w-11 items-center justify-center rounded-md bg-white p-1.5 shadow-sm border">
             <Image
-              src="/images/logo.png"
+              src="/images/logo-0.png"
               alt="North Pole Holdings logo"
               width={40}
               height={40}
@@ -41,7 +41,7 @@ export function SiteHeader() {
             <span
               className={cn(
                 "font-serif text-base font-semibold tracking-wide transition-colors sm:text-lg",
-                scrolled ? "text-navy" : "text-navy",
+                scrolled ? "text-navy" : "text-white",
               )}
             >
               North Pole Holdings
@@ -57,7 +57,7 @@ export function SiteHeader() {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium tracking-wide text-navy/70 transition-colors hover:text-navy"
+              className={cn("text-sm font-medium tracking-wide transition-colors" , scrolled ? "text-navy/70  hover:text-navy" : "text-white hover:text-white/70")}
             >
               {link.label}
             </a>
@@ -71,7 +71,7 @@ export function SiteHeader() {
         </nav>
 
         <button
-          className="rounded-lg p-2 text-navy transition-colors hover:bg-muted lg:hidden"
+          className={cn("rounded-lg p-2 transition-colors hover:bg-muted lg:hidden" , scrolled ? "text-navy" : "text-white" )}
           aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
