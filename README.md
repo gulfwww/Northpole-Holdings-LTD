@@ -1,7 +1,7 @@
 <div align="center">
   <br />
-    <a href="https://www.northpole.holdings" target="_blank">
-      <img src="./public/logo.svg" alt="North Pole Holdings Logo" width="180" />
+    <a href="https://northpole.holdings" target="_blank">
+      <img src="https://northpole.holdings/images/logo-0.png" alt="North Pole Holdings Logo" width="180" />
     </a>
   <br />
 
